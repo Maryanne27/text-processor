@@ -264,13 +264,7 @@ return (
           className="flex-1 resize-none outline-none p-2 border rounded-md bg-gray-50 focus:ring-2 focus:ring-blue-400"
           aria-label="Text input"
         />
-        {isDetecting && (
-          <div className="flex items-center">
-            <p className="text-sm text-gray-500 ml-1">
-              Detecting language...
-            </p>
-          </div>
-        )}
+        
         <FaImage
           className="text-gray-500 cursor-pointer hover:text-gray-700"
           title="Attach an image"
